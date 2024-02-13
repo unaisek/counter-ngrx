@@ -1,0 +1,12 @@
+<div>
+    <h1 class="text-center text-2xl">Counter Using Ngrx</h1>
+    <div class="flex justify-center items-center gap-3 mt-3 ">
+        <button (click)="increment()" class="text-white border border-red-400 py-1 px-1 bg-emerald-500">Increment</button>
+        <button (click)="decrement()" class="text-white border border-red-400 py-1 px-1  bg-red-500">Decrement</button>
+        <button (click)="reset()" class="text-white border border-red-400 py-1 px-1 bg-orange-500">Reset</button>
+
+    </div>
+    <h2 class="text-center text-xl">Value : {{count$ | async}}</h2>
+</div>
+
+
